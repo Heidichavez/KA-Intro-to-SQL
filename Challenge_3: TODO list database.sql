@@ -8,6 +8,6 @@ INSERT INTO todo_list VALUES (2, "vacuuming", 20);
 INSERT INTO todo_list VALUES (3, "Learn some stuff on KA", 30);
 INSERT INTO todo_list VALUES (4, "shower", 15);
 
-Select the SUM of minutes it will take to do all of the items on your TODO list.*/
+/*Select the SUM of minutes it will take to do all of the items on your TODO list.*/
 
 SELECT SUM(minutes) FROM todo_list;
